@@ -1,8 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: aliceblue;
+}
+
 button{
 background-color:lightblue;
 color: black;
 cursor: pointer;
+margin-top: 10px;
+width: 60px;
 }
-#searchbar{
-    
+.search-bar{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border-radius:13px;
+}
+
+.card{
+    background: rgb(52, 186, 223);
+    padding:20px;
+    border-radius: 20px 20px 10px 10px;
+    width: 100%;
+    max-width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+H1{
+    font-size: 35px;
+    background: lightblue;
+    text-align: center;
+    padding:18px 0;
+    color: aliceblue;
+    border: solid;
+}
+
+.weather{
+padding: 20px;
+width:100%;
+max-width: 500px;
+border: dotted aliceblue;
+border-radius:30px 30px 10px 10px ;
+margin-left: 10px;
+background: rgb(118, 163, 177);
+color: azure;
+margin-top: 25px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+li{
+    list-style: circle;
 }

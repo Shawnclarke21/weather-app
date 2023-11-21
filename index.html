@@ -1,35 +1,46 @@
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width", inital-scale="1.0">
-        <title>Weather api app</title>
-        <link rel="stylesheet" href="./assets/style.css">
-    </head>
-    <body>
-        <div class="card">
-            <div class="search"></div>
-            <input type="text" class="search-bar">
-            <button id="button">Search</button>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , inital-scale="1.0">
+    <title>Weather api app</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+<h1> Weather Dashboard</h1>
+<div class="flex-container">
+    <div class="card">
+        <div class="search"></div>
+        <input type="text" class="search-bar" placeholder="Ex. Tokyo, San Diego, ...">
+        <button class="button">Search</button>
+    </div>
+
+        <div class="weather">
+
+            <h2>City: san tan valley</h2>
+            <h3>Tempreture: 72°F</h3>
+            <h3>Wind: 4 mph</h3>
+            <h3>Humidity: 10%</h3>
+            <img src="" alt="" class="weather-icon">
         </div>
+    </div>
+    <div class="5dayforecast">
+        <h2>5-day-Forecast</h2>
+        <ul class="weathercard">
+            <li class="containers">
+                <h3>City: san tan valley</h3>
+                <h4>Tempreture: 72°F</h4>
+                <h4>Wind: 4 mph</h4>
+                <h4>Humidity: 10%</h4>
+                <img src="" alt="" class="weather-icon">
+            </li>   
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script
+        src="http://api.openweathermap.org/data/2.5/forecast?id=524901&appid={16c1955be2bcb6825e214520f49d193b}"></script>
+    <script src="script.js"></script>
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="http://api.openweathermap.org/data/2.5/forecast?id=524901&appid={16c1955be2bcb6825e214520f49d193b}"></script>
-        <script src="script.js"></script>
-    </body>
 </html>
