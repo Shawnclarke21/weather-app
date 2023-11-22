@@ -28,3 +28,6 @@ https://www.youtube.com/watch?v=SeXg3AX82ig&t
 ![Screenshot 2023-11-21 221452](https://github.com/Shawnclarke21/weather-app/assets/139307719/82697ee7-2119-4a22-b882-e6698157c3d7)
 ![Screenshot 2023-11-21 221507](https://github.com/Shawnclarke21/weather-app/assets/139307719/98e082e4-9acd-43ac-85cf-5578a1457275)
 ![Screenshot 2023-11-21 221516](https://github.com/Shawnclarke21/weather-app/assets/139307719/8ae6a4bc-5b4a-49ab-8a8d-5d102cede25b)
+
+https://github.com/Shawnclarke21/weather-app/blob/main/README.md
+https://shawnclarke21.github.io/weather-app/
